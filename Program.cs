@@ -3,9 +3,9 @@
 
 class Aluno {
    //Estado
-   public int rm;
+   public int? rm = default!;
    public string nome = default!;
-   public int idade;
+   public int idade? = default!;
    public bool ativo = true;
 
    //Comportamento
@@ -20,5 +20,7 @@ class Aluno {
       this.ativo = false;
 }
 }
+
+
 
  
